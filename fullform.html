@@ -8,33 +8,93 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Full REGISTRATION FORM</h1>
+    <h1> Student Information 2024</h1>
     <form action="https://formspree.io/f/xnqkjvvb" method="post">
-        <label for="Name"> Name</label>
-        <input type="text" name="name" required >
-        <label for="Email">Email</label>
-        <input for="Email" email="email" required>
-        <label for="myfile">Select a file:</label>
-      <input type="file" id="myfile" name="myfile">
+        <label for="Registered number"> Registered Number</label>
+        <input type="text" registered number="Registered Number" required >
+        <label for="Name">Full Name(as per ssc)</label>
+        <input type="text" name="name" required>
+       <label for="First Name">First Name</label>
+       <input type="text" name="name" required>
+       <label for="Middle Name">Middle Name</label>
+       <input type="text" name="name" required>
+       <label for="Last Name">Last Name(surname)</label>
+       <input type="text" name="name" required>
+       <label for="date of birth">Date of Birth(as per ssc)</label>
+       <input type="date" name="name" required>
+       <label for="gender">Gender</label>
+       <select id="gender">
+        <option values="male" >Male</option>
+        <option values="female" >FeMale</option>
+        <option values="prefer not to say" >prefer not to say</option>
+    </select>
+    <label for="Mode of Transport">Mode of transport</label>
+        <select id="Mode of Transport">
+            <option values="College Bus" >College Bus</option>
+            <option values="By Own" >By Own</option>
+            <option values="None of the above" >None of the above</option>
+        </select>
+        <label for="OU">OU</label>
+            <select id="OU">
+             <option values="Day Scholar" >Day Scholar</option>
+            <option values="Hostler" >Hostler</option>
+         </select>
 
-         <label for="Password">Password</label>
-        <input type="password" password="password" required>
-        <label for="Phonenumber">Phonenumber</label>
-        <input type="tel" phonenumber="phonenumber" required>
-        <label for="gender">Gender</label>
-    <select id="gender">
-    <option values="male" >Male</option>
-    <option values="female" >FeMale</option>
-    <option values="others" >others</option>
-</select>
-<label for="zipcode">zipcode</label>
-<input type="number" zipcode="zipcode" required>
-<label for="About">about</label>
-<input type="textarea" about="about" required>
+         <label for="area">Area (if Day Scholar mention area name)</label>
+       <input type="text" name="name" >
+        <label for="Stream">Stream</label>
+        <select id="Stream">
+            <option values="CSE">CSE</option>
+            <option values="ECE">ECE</option>
+            <option values="CIVIL">MECH</option>
+            <option values="MECH">Civil</option>
+            <option values="EEE">EEE</option>
+     </select>
+     <label for="certificates">Select certificate</label>
+     <input type="file" id="myfile" name="myfile">
+     <label for="appt">Select current time:</label>
+     <input type="time" name="appt" required>
+     <label for="phn">Enter 10 digit mobile Number(Given in college):</label>
+     <input type="num" name="phn" required>
+     <label for="col">Enter college name</label>
+     <input type="Text" name="col" required>
+     <label for="gsearch">Search Grading system in college:</label>
+    <input type="search" id="gsearch" name="gsearch">
+    <label for="vol">Enter Marks (between 0 and 100):</label>
+    <input type="range" id="vol" name="vol" min="0" max="100">
+    <label for="Nationality">Hindu</label>
+    <input type="radio" id="Nationality" name="Nationality" value="Hindu" required>
+    <label for="Nationality">Muslim</label>
+    <input type="radio" id="Nationality" name="Nationality" value="muslim" required>
+    <label for="Nationality">christian</label>
+    <input type="radio" id="Nationality" name="Nationality" value="christian" required>
+    <label for="Nationality">others</label>
+    <input type="radio" id="Nationality" name="Nationality" value="others" required>
+    <label for="username">Username:</label>
+<input type="text" name="username" required>
+<label for="pwd">Password:</label>
+<input type="password"  name="pwd" required>
+  <label for="bdaymonth">Birthday (month and year):</label>
+   <input type="month" id="bdaymonth" name="bdaymonth">
+   <label for="profile pick" >update profile pick</label>
+   <input type="file" name="profile pick" required>
+   <label for="about">about </label>
+   <input type="text" name="about" required>
+   <input type="hidden" name="about" required>
+   <label for="email">Enter your email:</label>
+<input type="email" name="email" required>
+<label for="father">Enter your father name:</label>
+<input type="text" name="father" required>
+<label for="Mother">Enter your Mother name:</label>
+<input type="text" name="Mother" required>
+<label for="father">Enter your father Occupation:</label>
+<input type="text" name="father" required>
+<label for="father">Enter your Mother Occupation:</label>
+<input type="text" name="father" required>
 <label for="register">register</label>
     <div id="submit">
         <input type="submit" value="register">
     </div>
     </form>
-</body>
+ </body>
 </html>
