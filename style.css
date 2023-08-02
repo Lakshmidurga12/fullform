@@ -1,14 +1,15 @@
 label{
     display:block;
-    padding: 10px;
+    padding: 20px;
 }
 body{
     background-color:antiquewhite;
+    text-align: center;
 }
 form{
     text-align: center;
-    background-color: blueviolet;
-    margin:0px 500px 0px 500px;
+    background-color: skyblue;
+    margin:0px 400px 0px 400px;
 
 }
 h1{
